@@ -1,7 +1,7 @@
 ##
 ## Analyzing Experimental Data
 ## Author: Joe Ornstein (jornstein@uga.edu)
-## Date: November 16, 2020
+## Date: November 19, 2020
 ## Version: 1.0
 ##
 

@@ -55,8 +55,12 @@ data <- tibble(X,Y,Z)
 ## 3D plots help with my intuition. 
 ## If they help with yours too, here's how to build one:
 library(plotly)
-plot_ly(x = X, y = Y, z = Z, type = 'scatter3d', mode = 'markers',
-                     marker = list(size = 5, color = "black", symbol = 104))
+plot_ly(x = X, y = Z, z = Y, type = 'scatter3d', mode = 'markers',
+                     marker = list(size = 5, color = Y, symbol = 104)) %>% 
+  layout(scene = list(
+    xaxis = list(title = "X"),
+    yaxis = list(title = "Z"),
+    zaxis = list(title = "Y")))
 ## Notice how, ignoring Z, it looks like X and Y are inversely correlated. 
 ## That's because X is strongly correlated with Z, which is strongly negatively
 ## correlated with Y.

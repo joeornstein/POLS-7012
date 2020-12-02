@@ -17,7 +17,7 @@ set.seed(42)
 
 ## Regression Discontinuity (RD) takes advantage of a sharp "cutoff" in
 ## treatment assignment. If the treatment suddenly changes but nothing else
-## change, then we can confidently say that any difference in outcomes was
+## changes, then we can confidently say that any difference in outcomes was
 ## caused by the treatment.
 
 ## Here's an example...
@@ -119,9 +119,17 @@ Y <- beta * Tr + X - Z1  - Z2 + rnorm(n,0,3)
 # put it all into a dataframe
 data = tibble(X,Y,Tr,Z1,Z2)
 
-plot(X,Y)
-lm(Y~X+Tr,data=data) %>% summary
-rdrobust(y=Y,x=X,c=1) %>% summary
+'****************************************************************************
+  EXERCISE: 
+  
+  1. Draw a DAG representing this data-generating process. 
+    - What must we condition on to recover the true causal effect of Tr on Y?
+    
+  2. Plot the relationship between X and Y. Include a dashed vertical line at the 
+    treatment cutoff.
+    
+  3. Estimate the treatment effect using rdrobust()
+******************************************************************************'
 
 
 # ---------------- Part 4: Another Empirical Example ------------------------------

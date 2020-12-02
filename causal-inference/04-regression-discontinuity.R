@@ -99,7 +99,7 @@ summary(rd_fit)
 n <- 500
 
 # the true treatment effect
-beta <- 1.5
+beta <- 2
 
 # Z1 is a sinister unobserved confounder
 Z1 <- rnorm(n,0,1)

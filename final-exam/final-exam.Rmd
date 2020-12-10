@@ -54,7 +54,7 @@ Our first task is to replicate the left-hand side of Figure 1. To do so, we need
 \noindent As an extra challenge, you can do any combination of the following:
 
 - Rearrange the y-axis so that the countries with the lowest reporting rate appear at the bottom and those with the highest reporting rate appear at the top.
-- Include line segments between points as in the original figure
+- Include line segments between points as in the original figure (`geom_segment()`)
 - Use the colors from the original figure
 - Use `geom_text()` to add floating labels for each country like in the original figure. This is an extra, *extra* challenge, but man is it satisfying when you get it right!
 

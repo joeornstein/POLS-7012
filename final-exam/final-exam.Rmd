@@ -32,7 +32,7 @@ Before you begin, skim over the paper and its Supplementary Materials, included 
 
 # Data
 
-Replication files are available [here](https://dataverse.harvard.edu/dataverse/honesty), and I have taken the liberty of downloading them into the `data/` folder. The dataset we'll need for this replication is called the behavioral data. Let's start by loading it.
+Replication files are available [here](https://dataverse.harvard.edu/dataverse/honesty), and I have taken the liberty of downloading them into the `data/` folder. The dataset we'll need for this replication is called the behavioral data. Let's start by loading it. Consult the codebook for variable definitions.
 
 ```{r load data}
 

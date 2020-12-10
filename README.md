@@ -23,3 +23,5 @@ This repository contains course materials for my graduate-level Intro to Politic
 8. [Correlation](https://joeornstein.github.io/courses/intro-political-methodology/slides/09-Correlation/09-Correlation.html)
 
 9. [Prediction](https://joeornstein.github.io/courses/intro-political-methodology/slides/10-Prediction/10-Prediction.html)
+
+10. [Semester Recap](https://joeornstein.github.io/courses/intro-political-methodology/slides/14-Semester-Recap/14-Semester-Recap.html)

@@ -113,7 +113,7 @@ In the Supplementary Materials, the authors extend the bivariate hypothesis test
 - Create a variable called `Money`, equal to 1 if the subject's wallet contained money and 0 otherwise.
 - Create a variable called `BigMoney`, equal to 1 if the subject's wallet contained **lots** of money and 0 otherwise.
 - Create a variable called `MoneyNoKey`, equal to 1 if they subject's wallet contained money but no key and 0 otherwise.
-- To include "Institution and City Fixed Effects", make sure that the city and type of institution are coded as characters or factors.
+- "Institution and City Fixed Effects" just means to include institution and city in your model, but make sure that those variables are coded as characters (or factors) so `R` doesn't think they're numeric.
 - Estimate your first model, `lm1`, including the treatment variables you created plus the institution and city fixed effects.
 - In the second model `lm2`, add the binary variables mentioned in the notes of Table S8.
 - Don't worry if your standard errors don't exactly match up. You'll learn more about "robust" standard errors next semester.
